@@ -19,7 +19,7 @@ Provides sx typing classes.
 """
 
 from logging import getLogger
-from suds import Object
+from suds.sudsobject import Object
 from suds.sax import Namespace as NS
 from suds.sax.text import Text
 
